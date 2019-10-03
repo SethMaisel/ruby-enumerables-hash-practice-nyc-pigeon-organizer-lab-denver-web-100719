@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
       pigeon_name.each do |name|
         pigeon_list[name] || = {}
         pigeon_list[name][attribute_name] || = []
-        pigeon_list[name][attribute_name].push 
+        pigeon_list[name][attribute_name].push(attribute_value.to_s)
       
       end
     end
